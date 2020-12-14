@@ -1,1 +1,3 @@
 # vue-study
+
+スタンダードと言われているVuexとTypeScriptを用いた開発ができるように環境構築をする
