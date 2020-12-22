@@ -1,7 +1,7 @@
-<template lang="pug">
-  div#app
-    img(src="./assets/logo.png")
-    hello-world(msg="Welcome to Your Vue.js + TypeScript App")
+<template>
+  <div>
+    <router-view/>
+  </div>
 </template>
 
 <script lang="ts">
