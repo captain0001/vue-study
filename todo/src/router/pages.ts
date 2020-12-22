@@ -1,27 +1,27 @@
-import Top from '../../src/views/Top.vue'
-import AnimeWatch from '../../src/views/AnimeWatch.vue'
-import ToDo from '../../src/views/ToDo.vue'
+// import Top from '../views/Top.vue'
+// import AnimeWatch from '../views/AnimeWatch.vue'
+// import ToDo from '../views/ToDo.vue'
 
-const routes = [
-  {
-    path: '/',
-    name: 'トップ',
-    meta: {
-      id: 0,
-      desc: 'トップページの説明'
-    },
-    component: Top
-  },
-  {
-    path: '/AnimeWatch',
-    name: 'アニメ視聴一覧',
-    component: AnimeWatch
-  },
-  {
-    path: '/ToDo',
-    name: 'タスク一覧',
-    component: ToDo
-  }
-]
+// const routes: Array<RouteConfig> = [
+//   {
+//     path: '/',
+//     name: 'Home',
+//     // meta: {
+//     //   id: 0,
+//     //   desc: 'トップページの説明'
+//     // },
+//     component: Top
+//   },
+//   {
+//     path: '/AnimeWatch',
+//     name: 'AnimeWatch',
+//     component: AnimeWatch
+//   },
+//   {
+//     path: '/ToDo',
+//     name: 'ToDo',
+//     component: ToDo
+//   }
+// ]
 
-export default routes
+// export default routes
